@@ -1,0 +1,71 @@
+* {
+    font-family: neon;
+}
+
+.bg {
+    background-image: url('https://i.pinimg.com/564x/24/24/12/2424129769dd2895a2ed4e725d8650b8.jpg');
+    background-position: center;
+    margin: auto;
+    width: 360px;
+}
+.tit {
+    color: floralwhite;
+    text-align: center;
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-top: 200px;
+}
+.msg {
+    margin: -10px 0 30px;
+    color: lightblue;
+    font-size: 20px;
+}
+.bucket{
+    background-position: center;
+    background-size: cover;
+    color: floralwhite;
+    margin: 8px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    word-break: keep-all;
+
+}
+.img{
+    background-image: url('https://i.pinimg.com/564x/ca/4e/34/ca4e347faa1b87b3086c6136e6cc05df.jpg');
+    width: 150px;
+    height: 150px; 
+    border-radius: 30%;
+    overflow: hidden;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.done::after {    
+    content: "";
+    width: 70%;
+    height: 70%;
+    /*<a href="https://kr.freepik.com/free-vector/green-heart-shape-element-vector_36225218.htm#fromView=search&page=3&position=9&uuid=e9194db4-b522-47c8-9334-492f359bd67b">작가 rawpixel.com 출처 Freepik</a>*/
+    background-image: url("img.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 20%;
+}
+@font-face {
+    font-family: neon;
+    src: url('AndFlowertome_L14.ttf');
+}
