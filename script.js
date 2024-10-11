@@ -36,16 +36,14 @@ document.querySelectorAll('.bucket').forEach(item => {
         }, { once: true });
     });
 });
-// Select the h1 element with the class 'tit'
+
 const title = document.querySelector('.tit');
 
 // Add a click event listener to the h1 element
 title.addEventListener('click', function() {
-    // Remove the animation classes to reset the animation
     this.classList.remove('animate__animated', 'animate__bounce');
     
-    // Use a timeout to ensure the classes are removed before adding them again
     setTimeout(() => {
         this.classList.add('animate__animated', 'animate__bounce');
-    }, 10); // Small delay to re-trigger the animation
+    }, 10);
 });
